@@ -45,5 +45,10 @@ namespace events.tac.local.Controllers
 
         }
 
+        public ActionResult Index1()
+        {
+            return null;
+        }
+
     }
 }
