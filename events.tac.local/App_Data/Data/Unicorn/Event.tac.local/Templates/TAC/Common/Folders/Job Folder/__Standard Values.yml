@@ -1,0 +1,14 @@
+﻿---
+ID: "f43ccea9-c8ef-4101-a83b-a4e4366e5173"
+Parent: "f6d2e070-048a-4be3-bc57-9d950f0b3410"
+Template: "f6d2e070-048a-4be3-bc57-9d950f0b3410"
+Path: /sitecore/templates/TAC/Common/Folders/Job Folder/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160428T192423Z

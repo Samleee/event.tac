@@ -1,0 +1,21 @@
+﻿---
+ID: "97b42e0e-4546-44d7-968a-d1c8ae6bfbb2"
+Parent: "c70ae340-4139-417a-b4cb-97eba11684ac"
+Template: "c70ae340-4139-417a-b4cb-97eba11684ac"
+Path: /sitecore/templates/TAC/Common/Base/Base Content/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1384a77f-8e0c-40ba-b628-3c5ed330dd86"
+      Hint: ContentHeading
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160425T113717Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

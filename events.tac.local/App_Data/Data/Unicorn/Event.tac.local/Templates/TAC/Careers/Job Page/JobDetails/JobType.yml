@@ -1,0 +1,24 @@
+﻿---
+ID: "54dfc0b6-b74c-4d09-9aea-041ec73f7707"
+Parent: "f82c2e15-97ea-49a1-84bd-004660d7450e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/TAC/Careers/Job Page/JobDetails/JobType
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "{C2913DFA-D67F-4CE0-A17C-B859E75D2D79}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplist
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160510T064945Z

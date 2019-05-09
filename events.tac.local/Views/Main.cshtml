@@ -1,0 +1,19 @@
+﻿@using Sitecore.Mvc;
+@using System.Data.Linq;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @Html.Sitecore().CurrentItem.Name
+    </div>
+</body>
+</html>

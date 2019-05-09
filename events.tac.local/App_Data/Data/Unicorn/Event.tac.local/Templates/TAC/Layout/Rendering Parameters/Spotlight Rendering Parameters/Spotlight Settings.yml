@@ -1,0 +1,18 @@
+﻿---
+ID: "1a870916-66d6-44c9-a2fe-fb58a69b4434"
+Parent: "720e0244-2793-4eb5-8a13-313a853bb338"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/TAC/Layout/Rendering Parameters/Spotlight Rendering Parameters/Spotlight Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160428T175338Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

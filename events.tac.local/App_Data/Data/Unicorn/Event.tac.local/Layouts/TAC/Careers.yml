@@ -1,0 +1,18 @@
+﻿---
+ID: "231c442b-307a-4a81-a1d0-711d1585334b"
+Parent: "9d6c1ded-b9f9-4c26-b097-579a910735f3"
+Template: "239f9cf4-e5a0-44e0-b342-0f32cd4c6d8b"
+Path: /sitecore/layout/Layouts/TAC/Careers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T103802Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

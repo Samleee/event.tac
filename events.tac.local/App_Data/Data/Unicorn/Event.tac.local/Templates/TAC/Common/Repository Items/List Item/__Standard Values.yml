@@ -1,0 +1,18 @@
+﻿---
+ID: "781df2bd-4e44-414d-b49f-5499cce3a3ca"
+Parent: "37953c02-9667-493f-8d49-afe1eee322a0"
+Template: "37953c02-9667-493f-8d49-afe1eee322a0"
+Path: /sitecore/templates/TAC/Common/Repository Items/List Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160428T192410Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

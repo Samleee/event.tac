@@ -1,0 +1,26 @@
+﻿---
+ID: "720e0244-2793-4eb5-8a13-313a853bb338"
+Parent: "ab372c47-cf95-48cf-ad1b-506bf453275e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/TAC/Layout/Rendering Parameters/Spotlight Rendering Parameters
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{8CA06D6A-B353-44E8-BC31-B528C7306971}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{1D555336-FA6F-4C89-B9E6-4DA049FC8B8B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160428T175148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

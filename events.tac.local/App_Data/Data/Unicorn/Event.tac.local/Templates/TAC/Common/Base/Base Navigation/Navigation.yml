@@ -1,0 +1,18 @@
+﻿---
+ID: "889e8514-994d-45e3-b7b6-ba7c1e06d10e"
+Parent: "96f5676b-4515-4046-a962-1c62253be1ad"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/TAC/Common/Base/Base Navigation/Navigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160425T112140Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

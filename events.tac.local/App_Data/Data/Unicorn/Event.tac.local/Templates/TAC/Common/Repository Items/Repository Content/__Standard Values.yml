@@ -1,0 +1,14 @@
+﻿---
+ID: "ebc39a86-bf48-4660-a779-349f768965ac"
+Parent: "f9ce4319-4059-4a07-a606-629cd6bf2ebe"
+Template: "f9ce4319-4059-4a07-a606-629cd6bf2ebe"
+Path: /sitecore/templates/TAC/Common/Repository Items/Repository Content/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160425T113442Z

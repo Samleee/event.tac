@@ -1,0 +1,35 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    @Html.Sitecore().Field("MetaDescription", new { disableWebEdit = true })
+    @Html.Sitecore().Field("MetaTitle", new { disableWebEdit = true })
+    <title>The Adventure Company</title>
+    <link rel="stylesheet" type="text/css" href="/Css/vendor.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Css/niteflight.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Css/addition.css">
+    <link rel="stylesheet" type="text/css" href="/Css/font-awesome.min.css">
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<body class="header-static ">
+    <div id="main-container">
+        @Html.Sitecore().Placeholder("pageContent")
+    </div>
+    <script src="Scripts/Sitecore.Foundation.Theming.min.js"></script>
+    <script src="Scripts/Navigation.js"></script>
+</body>
+</html>

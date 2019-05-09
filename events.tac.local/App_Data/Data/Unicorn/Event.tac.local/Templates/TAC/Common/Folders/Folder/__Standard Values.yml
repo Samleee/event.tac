@@ -1,0 +1,14 @@
+﻿---
+ID: "73f60ffa-f978-4ad6-bd61-d8905f3cd8ca"
+Parent: "e1d4f64d-710e-4b03-bd01-961c00368a42"
+Template: "e1d4f64d-710e-4b03-bd01-961c00368a42"
+Path: /sitecore/templates/TAC/Common/Folders/Folder/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160425T111525Z

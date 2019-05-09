@@ -1,0 +1,30 @@
+﻿@using Sitecore.Mvc.Extensions
+@model IEnumerable<events.tac.local.Models.NavigationItem>
+
+
+@using (Html.EditFrame(RenderingContext.Current.ContextItem.Paths.FullPath, "Related Events", null, null, null, null))
+    {
+
+<div class="bg-primary side-widget">
+    <h4 class="text-uppercase">Other events you will like</h4>
+    <div class="sidebar">
+        <ul class="nav nav-pills nav-stacked">
+
+            @foreach (var NavItem in Model)
+            {
+
+
+
+                <li>
+                    <a href="@NavItem.URL">@NavItem.title</a>
+                </li>
+
+            }
+
+        </ul>
+    </div>
+</div>
+
+}
+
+

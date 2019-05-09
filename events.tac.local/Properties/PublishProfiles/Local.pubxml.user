@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://ssd.tac.local</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/Events.DefaultIndexConfiguration.config">
+      <publishTime>12/28/2017 11:35:30</publishTime>
+    </File>
+    <File Include="App_Config/Include/Events.Services.Client.config">
+      <publishTime>12/28/2017 14:42:09</publishTime>
+    </File>
+    <File Include="App_Config/Include/Lucene.Events.Master.Index.config">
+      <publishTime>12/28/2017 11:33:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Lucene.Events.Web.Index.config">
+      <publishTime>12/28/2017 11:33:50</publishTime>
+    </File>
+    <File Include="Areas/Importer/Views/Events/Index.cshtml">
+      <publishTime>12/27/2017 14:51:06</publishTime>
+    </File>
+    <File Include="Areas/Importer/Views/Shared/Layout.cshtml">
+      <publishTime>12/27/2017 14:40:25</publishTime>
+    </File>
+    <File Include="Areas/Importer/Views/web.config">
+      <publishTime>12/27/2017 14:37:11</publishTime>
+    </File>
+    <File Include="bin/events.tac.local.dll">
+      <publishTime>12/28/2017 15:40:49</publishTime>
+    </File>
+    <File Include="bin/events.tac.local.pdb">
+      <publishTime>12/28/2017 15:40:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 13:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/15/2016 17:05:28</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.Core.dll">
+      <publishTime>11/15/2016 18:29:26</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.dll">
+      <publishTime>11/15/2016 18:29:28</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.Model.dll">
+      <publishTime>11/15/2016 18:29:28</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.Outcome.dll">
+      <publishTime>11/15/2016 18:29:28</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.dll">
+      <publishTime>11/15/2016 18:29:40</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.Linq.dll">
+      <publishTime>11/15/2016 18:29:40</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>11/15/2016 18:29:52</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.Analytics.dll">
+      <publishTime>11/15/2016 18:30:02</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>11/15/2016 18:30:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/TAC.Utils.dll">
+      <publishTime>12/28/2017 11:38:15</publishTime>
+    </File>
+    <File Include="bin/TAC.Utils.pdb">
+      <publishTime>12/28/2017 11:38:15</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
+      <publishTime>01/28/2015 04:02:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
+      <publishTime>01/28/2015 04:02:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Webpages.Deployment.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Webpages.Razor.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Webpages.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/25/2017 13:46:35</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/26/2017 12:12:48</publishTime>
+    </File>
+    <File Include="Scripts/commentForm.js">
+      <publishTime>12/27/2017 15:30:00</publishTime>
+    </File>
+    <File Include="Scripts/commentsForm.js">
+      <publishTime>12/27/2017 15:30:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.intellisense.js">
+      <publishTime>12/26/2017 12:12:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>12/26/2017 12:12:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>12/26/2017 12:12:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>12/26/2017 12:12:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate-vsdoc.js">
+      <publishTime>12/26/2017 12:12:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>12/26/2017 12:12:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>12/26/2017 12:12:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>12/26/2017 12:12:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/26/2017 12:12:48</publishTime>
+    </File>
+    <File Include="Views/Breadcrumb/Index.cshtml">
+      <publishTime>12/27/2017 10:20:00</publishTime>
+    </File>
+    <File Include="Views/CommentsForm/Confirmation.cshtml">
+      <publishTime>12/27/2017 14:05:05</publishTime>
+    </File>
+    <File Include="Views/CommentsForm/Index.cshtml">
+      <publishTime>12/27/2017 15:28:32</publishTime>
+    </File>
+    <File Include="Views/EventIntro/Index.cshtml">
+      <publishTime>12/26/2017 12:13:48</publishTime>
+    </File>
+    <File Include="Views/Events/Index.cshtml">
+      <publishTime>12/27/2017 14:42:02</publishTime>
+    </File>
+    <File Include="Views/EventsList/Index.cshtml">
+      <publishTime>12/28/2017 14:04:30</publishTime>
+    </File>
+    <File Include="Views/FeaturedEvent/Index.cshtml">
+      <publishTime>12/26/2017 15:30:24</publishTime>
+    </File>
+    <File Include="Views/Main.cshtml">
+      <publishTime>12/25/2017 14:24:11</publishTime>
+    </File>
+    <File Include="Views/Overview/Index.cshtml">
+      <publishTime>12/27/2017 11:44:49</publishTime>
+    </File>
+    <File Include="Views/RelatedEvents/Index.cshtml">
+      <publishTime>12/27/2017 12:26:58</publishTime>
+    </File>
+    <File Include="Views/SubscriberForm/Confirmation.cshtml">
+      <publishTime>12/27/2017 13:48:29</publishTime>
+    </File>
+    <File Include="Views/SubscriberForm/Index.cshtml">
+      <publishTime>12/27/2017 13:47:59</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/HomeContent.cshtml">
+      <publishTime>12/26/2017 13:56:36</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/Layouts/Events.cshtml">
+      <publishTime>12/26/2017 13:50:40</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/Layouts/Home.cshtml">
+      <publishTime>12/26/2017 13:51:15</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/OneColumn.cshtml">
+      <publishTime>12/26/2017 13:57:51</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/PageContent.cshtml">
+      <publishTime>12/26/2017 14:04:56</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/SideContent.cshtml">
+      <publishTime>12/26/2017 14:03:37</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/TwoColumn.cshtml">
+      <publishTime>12/26/2017 14:01:19</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>12/25/2017 13:46:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/25/2017 14:22:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

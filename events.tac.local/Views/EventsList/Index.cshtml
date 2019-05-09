@@ -1,0 +1,55 @@
+﻿
+@using events.tac.local.Models;
+@using TAC.Utils.Helpers;
+@using Sitecore.Links;
+@model events.tac.local.Models.EventsList
+
+<!-- [Event List] -->
+<div class="content-list newslist">
+    <ol class="media-list">
+        @foreach (var ev in Model.Events)
+        {
+
+            <li class="media media-align-middle">
+                <div class="media-left">
+
+                    <a href="@LinkManager.GetItemUrl(ev.GetItem())">@ev.EventImage</a>
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">
+                        <a href="@LinkManager.GetItemUrl(ev.GetItem())">@ev.ContentHeading</a>
+                    </h3>
+                    <div class="description">
+                        <p>@ev.ContentIntro</p>
+                    </div>
+                </div>
+                <div class="metadata well">@ev.EventStartDate</div>
+            </li>
+
+        }
+    </ol>
+</div>
+<!-- [Event List] -->
+<!-- [Pagination Navigation] -->
+
+
+<nav class="text-center">
+    <ul class="pagination">
+        <li class= disabled>
+            <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li>
+            <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+<!-- [/Pagination Navigation] -->

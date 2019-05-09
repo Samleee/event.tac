@@ -1,0 +1,24 @@
+﻿---
+ID: "6ab86939-c29f-4035-abff-ac0a0d473986"
+Parent: "f82c2e15-97ea-49a1-84bd-004660d7450e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/TAC/Careers/Job Page/JobDetails/JobHours
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "{B8EE2700-F09A-4D89-B49D-D03B7EDE9EBC}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplink
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160503T181726Z

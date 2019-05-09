@@ -1,0 +1,29 @@
+﻿---
+ID: "bc9b1fa0-f374-40d2-b8ed-4f236cf8d752"
+Parent: "87a8ab4d-15ab-471b-8096-8f9ffcd1c88c"
+Template: "87a8ab4d-15ab-471b-8096-8f9ffcd1c88c"
+Path: /sitecore/templates/TAC/Common/Base/Base Meta Information/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160425T111943Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "648581f5-0b1b-40c7-ad1a-5991fb630da3"
+      Hint: RobotsFollow
+      Type: Checkbox
+      Value: 1
+    - ID: "68acbb05-02b9-451d-a85c-71074db5d8d7"
+      Hint: RobotsIndex
+      Type: Checkbox
+      Value: 1
+    - ID: "f35dacec-61a9-49c5-90bd-05e58f0c7727"
+      Hint: MetaTitle
+      Value: $name

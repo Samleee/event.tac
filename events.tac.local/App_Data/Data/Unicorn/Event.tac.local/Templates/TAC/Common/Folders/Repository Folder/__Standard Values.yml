@@ -1,0 +1,25 @@
+﻿---
+ID: "f76eea3a-04fd-4bf0-a24f-175c2745032e"
+Parent: "92c37d00-4760-4eb0-b1f8-af5e95faa031"
+Template: "92c37d00-4760-4eb0-b1f8-af5e95faa031"
+Path: /sitecore/templates/TAC/Common/Folders/Repository Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {92C37D00-4760-4EB0-B1F8-AF5E95FAA031}
+    {F9CE4319-4059-4A07-A606-629CD6BF2EBE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160425T113402Z
+    - ID: "25d57132-8ba2-4b84-a218-04ef4b7473d1"
+      Hint: ExcludeFromNavigation
+      Type: Checkbox
+      Value: 1

@@ -1,0 +1,23 @@
+﻿---
+ID: "3bb9f904-7784-4a98-8dc4-c9b122a44ac1"
+Parent: "b3031702-6bff-4061-b92d-291e9ec865d5"
+Template: "aa94e5de-83d4-4166-872e-740ecf9cba5d"
+Path: /sitecore/system/Settings/Validation Rules/Global Rules
+DB: master
+SharedFields:
+- ID: "fc02a5b2-f28c-4787-8a22-05333ea6c965"
+  Hint: Validate Button
+  Type: tree list
+  Value: |
+    {79B9EE40-6305-483D-94BB-89BE2F2A7B97}
+    {54EB5C9A-822E-43A4-BD60-63C9F2C63C74}
+    {9DE34911-96D5-48C3-AFFF-20CFF4D5AB02}
+    {E6E17B0F-3BFD-4B5E-A396-5FD6830EC080}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20160512T125703:635986546232397581Z"
